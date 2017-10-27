@@ -10,16 +10,16 @@ import Cocoa
 
 public protocol IWeapon {
     var name : String {get set}
-    var height : Int {get set}
-    var width : Int {get set}
-    var weight : Int {get set}
+    var height : Float {get set}
+    var width : Float {get set}
+    var weight : Float {get set}
     var price : Float {get set}
     
-    init(name : String, height : Int, width : Int, weight : Int, price : Float)
+    init(name : String, height : Float, width : Float, weight : Float, price : Float)
     
-    func duration()
+    func duration() -> Int
     
-    func damage()
+    func damage() -> Int
     
-    func bonus()
+    func bonus() -> Int
 }

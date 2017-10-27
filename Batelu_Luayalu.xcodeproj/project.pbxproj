@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68C60C9E1FA33634001AB8E4 /* Gun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C60C9D1FA33634001AB8E4 /* Gun.swift */; };
 		BFD1930A1FA32DA400790689 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD193091FA32DA400790689 /* main.swift */; };
 		BFD193121FA330C900790689 /* IWeapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD193111FA330C900790689 /* IWeapon.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		68C60C9D1FA33634001AB8E4 /* Gun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gun.swift; sourceTree = "<group>"; };
 		BFD193061FA32DA400790689 /* Batelu_Luayalu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Batelu_Luayalu; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD193091FA32DA400790689 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BFD193111FA330C900790689 /* IWeapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWeapon.swift; sourceTree = SOURCE_ROOT; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68C60C9C1FA33079001AB8E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68C60C9D1FA33634001AB8E4 /* Gun.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BFD192FD1FA32DA400790689 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 		BFD193081FA32DA400790689 /* Batelu_Luayalu */ = {
 			isa = PBXGroup;
 			children = (
+				68C60C9C1FA33079001AB8E4 /* Classes */,
 				BFD193091FA32DA400790689 /* main.swift */,
 				BFD193101FA32EA200790689 /* Interfaces */,
 			);
@@ -131,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C60C9E1FA33634001AB8E4 /* Gun.swift in Sources */,
 				BFD1930A1FA32DA400790689 /* main.swift in Sources */,
 				BFD193121FA330C900790689 /* IWeapon.swift in Sources */,
 			);
